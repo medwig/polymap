@@ -9,7 +9,7 @@ setup(
     name='polygon_mapper',
     version='0.1.0',
     url='https://github.com/medwig/polygon-mapper',
-    license='BSD',
+    license='MIT',
     author='Jonathan Medwig',
     author_email='jonmedwig@gmail.com',
     description='Opens a webbrowser displaying input polygon on a satellite map',
