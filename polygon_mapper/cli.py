@@ -7,6 +7,7 @@ from polygon_mapper.src import get_url
 @click.option('-p', is_flag=True, help='print output without launching')
 def main(coords, p):
     """Opens a webbrowser displaying input polygon on a satellite map
+    Polygon coordinates are expected to be in lon/lat order
 
     Example: 
 

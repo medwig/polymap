@@ -13,7 +13,7 @@ def parse_coords(coords):
 def poly2url(polygon):
     query_string = ''
     for point in polygon:
-        query_string += '%2C%20'.join(map(str, point)) + '%0A'
+        query_string += '%2C%20'.join(map(str, reversed(point))) + '%0A'
     query_string.rstrip('%0A')
     return BASE_URL + query_string
  
