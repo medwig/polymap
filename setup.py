@@ -7,7 +7,7 @@ dependencies = ['click']
 
 setup(
     name='polygon_mapper',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/medwig/polygon-mapper',
     license='MIT',
     author='Jonathan Medwig',
